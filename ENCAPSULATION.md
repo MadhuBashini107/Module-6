@@ -25,15 +25,28 @@ To write a Python program to create a class `Student` with the private members `
 
 ### PROGRAM
 
-```
+```python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
 
+    def show(self):
+        print("Name: ", self.name, "Salary:", self.salary)
 
+emp1 = Employee("Jessa", 10000)
+
+emp1.show()
+emp1.show()
 
 ```
 
 ### OUTPUT
 
+<img width="931" height="186" alt="image" src="https://github.com/user-attachments/assets/26eaa99d-e5dd-4e34-942c-dd174880ede1" />
+
 
 ### RESULT
+Thus the python program to create a class Student with the private members name and age, and add getter and setter methods has been executed.
 
 
